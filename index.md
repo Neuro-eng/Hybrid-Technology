@@ -1,6 +1,6 @@
 <section class="hero">
   <h2>Pass the AWS Cloud Practitioner Exam — First Try</h2>
-  <p>111 original practice questions, organized by exam domain, plus a full-length timed mock exam. Free to study online, or grab the offline PDF bundle.</p>
+  <p>10 separate full-length, 65-question, 90-minute timed exams — each matching the real CLF-C02 exam format exactly. Free to study online.</p>
   <div class="hero-buttons">
     <a class="btn btn-primary" href="practice-exam/diagnostic-quiz.html">Take the Free Diagnostic Quiz</a>
     <a class="btn btn-secondary" href="practice-exam/exams.html">Browse All Practice Exams</a>
@@ -14,16 +14,16 @@
 </section>
 <section class="features">
   <div class="feature-card">
-    <h3>🎯 Domain-Focused</h3>
-    <p>10 exams mapped to the real CLF-C02 domain weights — Cloud Concepts, Security, Technology, and Billing — so you study what's actually tested.</p>
+    <h3>🎯 10 Full-Length Exams</h3>
+    <p>Ten separate 65-question, 90-minute timed exams — each matching the real CLF-C02 exam length and domain weighting exactly.</p>
   </div>
   <div class="feature-card">
     <h3>🧠 Diagnostic Quiz</h3>
     <p>A 10-question quick check tells you exactly which topics to prioritize before you dive in.</p>
   </div>
   <div class="feature-card">
-    <h3>⏱️ Full-Length Mock</h3>
-    <p>A 65-question timed exam that mirrors the real test's length and domain balance.</p>
+    <h3>⏱️ Click-to-Reveal Scoring</h3>
+    <p>Answers stay hidden until you pick one — instant feedback, then a full score and percentage at the end of every exam.</p>
   </div>
 </section>
 <section class="topics">
