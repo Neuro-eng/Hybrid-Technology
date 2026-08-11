@@ -1,6 +1,3 @@
----
-layout: default
-title: Home
 <section class="hero">
   <h2>Pass the AWS Cloud Practitioner Exam — First Try</h2>
   <p>111 original practice questions, organized by exam domain, plus a full-length timed mock exam. Free to study online, or grab the offline PDF bundle.</p>
@@ -30,24 +27,32 @@ title: Home
   </div>
 </section>
 <section class="topics">
-  <h2 class="section-title">Study Topics — Straight from AWS</h2>
-  <p class="section-sub">Free official videos for each exam domain, so you learn the concepts before testing yourself.</p>
+  <h2 class="section-title">Study Topics — Straight from AWS (No Login Needed)</h2>
+  <p class="section-sub">Public AWS pages and videos for each exam domain — no account required.</p>
   <div class="topic-grid">
-    <a class="topic-card" href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/13598/aws-cloud-practitioner-essentials" target="_blank">
+    <a class="topic-card" href="https://aws.amazon.com/what-is-cloud-computing/" target="_blank">
       <h4>Cloud Concepts (24%)</h4>
-      <p>AWS Skill Builder — Cloud Practitioner Essentials</p>
+      <p>AWS Official — What Is Cloud Computing?</p>
     </a>
-    <a class="topic-card" href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/13735/aws-security-fundamentals" target="_blank">
+    <a class="topic-card" href="https://aws.amazon.com/compliance/shared-responsibility-model/" target="_blank">
       <h4>Security & Compliance (30%)</h4>
-      <p>AWS Skill Builder — Security Fundamentals</p>
+      <p>AWS Official — Shared Responsibility Model</p>
     </a>
-    <a class="topic-card" href="https://explore.skillbuilder.aws/learn/public/learning_plan/view/1043/cloud-essentials" target="_blank">
+    <a class="topic-card" href="https://aws.amazon.com/products/" target="_blank">
       <h4>Cloud Technology & Services (34%)</h4>
-      <p>AWS Skill Builder — Core Services Overview</p>
+      <p>AWS Official — Core Services Overview</p>
     </a>
     <a class="topic-card" href="https://aws.amazon.com/pricing/" target="_blank">
       <h4>Billing, Pricing & Support (12%)</h4>
       <p>AWS Official — Pricing & Support Plans</p>
+    </a>
+    <a class="topic-card" href="https://www.youtube.com/@amazonwebservices" target="_blank">
+      <h4>🎥 Free Video Course</h4>
+      <p>AWS's Official YouTube Channel — watch free, no sign-in</p>
+    </a>
+    <a class="topic-card" href="https://aws.amazon.com/training/learn-about/cloud-practitioner/" target="_blank">
+      <h4>📘 Full Study Guide</h4>
+      <p>AWS Official — Cloud Practitioner Training Overview</p>
     </a>
   </div>
 </section>
