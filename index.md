@@ -1,7 +1,3 @@
-<section class="hero">
-  <h2>Neuro-Hub — Free Certification & Skills Practice</h2>
-  <p>Interactive practice exams and study resources across cloud, security, and DevOps tracks. Pick a track below to get started.</p>
-</section>
 <section class="topics">
   <h2 class="section-title">Neuro-Hub — Learning Tracks</h2>
   <p class="section-sub">One hub, multiple certification and skill tracks. Live tracks are clickable now; others are being built.</p>
