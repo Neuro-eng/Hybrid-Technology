@@ -1,6 +1,3 @@
----
-layout: default
-title: Neuro-Hub
 <section class="hero">
   <h2>Neuro-Hub — Free Certification & Skills Practice</h2>
   <p>Interactive practice exams and study resources across cloud, security, and DevOps tracks. Pick a track below to get started.</p>
