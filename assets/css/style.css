@@ -227,3 +227,49 @@ body {
 .quiz-result h3 { margin: 0 0 10px; font-size: 1.4em; }
 .quiz-result p { max-width: 480px; margin: 0 auto; opacity: 0.9; }
 .quiz-retry { margin-top: 14px; }
+
+/* --- Quiz Timer (for full-length mock exam) --- */
+.quiz-timer-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f2f27;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.quiz-timer-value { font-size: 1.1em; font-variant-numeric: tabular-nums; }
+.quiz-timer-warning { color: #fca5a5; animation: pulse-warn 1s infinite; }
+@keyframes pulse-warn { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+/* --- Dark theme (wingetly-inspired) --- */
+body { background: #0b0c10; color: #e6e6e6; }
+.site-content { background: #0f1116; }
+.hero h2 { color: #fff; }
+.hero p { color: #aab0bb; }
+.feature-card { background: #161923; border-color: #262b38; }
+.feature-card p { color: #aab0bb; }
+.about-box { border-top-color: #262b38; color: #aab0bb; }
+.site-footer { border-top-color: #262b38; color: #6b7280; }
+.quiz-q { background: #131620; border-color: #262b38; }
+.quiz-option { background: #0f1116; border-color: #2a3040; color: #e6e6e6; }
+.quiz-option:hover:not(:disabled) { background: #1b2130; border-color: #7c5cff; }
+.btn-secondary { background: #1b2130; color: #e6e6e6 !important; border-color: #2a3040; }
+
+.section-title { text-align: center; margin: 40px 0 6px; color: #fff; }
+.section-sub { text-align: center; color: #aab0bb; margin-bottom: 24px; }
+.topics { padding: 20px 0 10px; }
+.topic-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.topic-card {
+  display: block; background: #161923; border: 1px solid #262b38; border-radius: 12px;
+  padding: 18px; text-decoration: none !important; transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.topic-card:hover { border-color: #7c5cff; transform: translateY(-2px); }
+.topic-card h4 { margin: 0 0 6px; color: #a78bfa; font-size: 1em; }
+.topic-card p { margin: 0; color: #aab0bb; font-size: 0.85em; }
