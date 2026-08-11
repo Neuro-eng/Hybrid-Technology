@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Home
----
-
 <section class="hero">
   <h2>Pass the AWS Cloud Practitioner Exam — First Try</h2>
   <p>111 original practice questions, organized by exam domain, plus a full-length timed mock exam. Free to study online, or grab the offline PDF bundle.</p>
@@ -11,14 +9,12 @@ title: Home
     <a class="btn btn-secondary" href="practice-exam/exams.html">Browse All Practice Exams</a>
   </div>
 </section>
-
 <section class="ticker-wrap">
   <div class="ticker-label">📡 Live AWS Updates</div>
   <div class="ticker-track">
     <div class="ticker-track-inner" id="aws-ticker">Loading latest AWS announcements…</div>
   </div>
 </section>
-
 <section class="features">
   <div class="feature-card">
     <h3>🎯 Domain-Focused</h3>
@@ -33,33 +29,36 @@ title: Home
     <p>A 65-question timed exam that mirrors the real test's length and domain balance.</p>
   </div>
 </section>
-
-<section class="pricing">
-  <div class="pricing-card">
-    <span class="badge">100% Free</span>
-    <h3>AWS Cloud Practitioner — Complete PDF</h3>
-    <p class="price">Free<span>no signup, no payment</span></p>
-    <ul class="pricing-list">
-      <li>✅ All 111 practice questions + explanations (offline PDF)</li>
-      <li>✅ Full-length 65-question mock exam</li>
-      <li>✅ Free lifetime updates as AWS revises the exam</li>
-      <li>✅ Printable format for offline study</li>
-    </ul>
-    <a class="btn btn-buy" href="assets/pdf/AWS-Cloud-Practitioner-Practice-Exams.pdf" download>Download the Free PDF</a>
-    <p class="fine-print">No account or payment required — direct download.</p>
+<section class="topics">
+  <h2 class="section-title">Study Topics — Straight from AWS</h2>
+  <p class="section-sub">Free official videos for each exam domain, so you learn the concepts before testing yourself.</p>
+  <div class="topic-grid">
+    <a class="topic-card" href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/13598/aws-cloud-practitioner-essentials" target="_blank">
+      <h4>Cloud Concepts (24%)</h4>
+      <p>AWS Skill Builder — Cloud Practitioner Essentials</p>
+    </a>
+    <a class="topic-card" href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/13735/aws-security-fundamentals" target="_blank">
+      <h4>Security & Compliance (30%)</h4>
+      <p>AWS Skill Builder — Security Fundamentals</p>
+    </a>
+    <a class="topic-card" href="https://explore.skillbuilder.aws/learn/public/learning_plan/view/1043/cloud-essentials" target="_blank">
+      <h4>Cloud Technology & Services (34%)</h4>
+      <p>AWS Skill Builder — Core Services Overview</p>
+    </a>
+    <a class="topic-card" href="https://aws.amazon.com/pricing/" target="_blank">
+      <h4>Billing, Pricing & Support (12%)</h4>
+      <p>AWS Official — Pricing & Support Plans</p>
+    </a>
   </div>
 </section>
-
 <section class="cta-secondary">
   <p>Prefer to study for free first? <a href="practice-exam/exams.html">Start with the practice exams →</a></p>
 </section>
-
 <section class="about-box">
   <h3>About This Resource</h3>
   <p>Created by Neuro-eng, an independent learner who built these questions while studying for the CLF-C02 exam. All content is original, written from scratch, and free for anyone to use.</p>
   <p class="disclaimer">This is an independent study resource and is not affiliated with, endorsed by, or sponsored by Amazon Web Services (AWS) or Amazon.com, Inc. "AWS" and "Amazon Web Services" are trademarks of Amazon.com, Inc. or its affiliates.</p>
 </section>
-
 <script>
 (function () {
   var feedUrl = "https://aws.amazon.com/about-aws/whats-new/recent/feed/";
@@ -132,4 +131,3 @@ title: Home
     .then(function (items) { renderItems(items); })
     .catch(function () { renderItems(staticFallback); });
 })();
-</script>
