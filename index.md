@@ -56,6 +56,29 @@
     </a>
   </div>
 </section>
+<section class="topics">
+  <h2 class="section-title">Hands-On Labs — Practice for Free</h2>
+  <p class="section-sub">Real AWS console practice costs nothing if you stay within free-tier limits. These build the muscle memory that questions alone can't.</p>
+  <div class="topic-grid">
+    <a class="topic-card" href="https://aws.amazon.com/free/" target="_blank">
+      <h4>🆓 AWS Free Tier</h4>
+      <p>Real AWS account, 12 months free usage on EC2, S3, RDS & more. Requires card on file but $0 charged if you stay in limits.</p>
+    </a>
+    <a class="topic-card" href="https://workshops.aws/" target="_blank">
+      <h4>🧪 AWS Workshops</h4>
+      <p>Official self-paced, step-by-step labs on real AWS services — many viewable without any login.</p>
+    </a>
+    <a class="topic-card" href="https://aws.amazon.com/getting-started/hands-on/" target="_blank">
+      <h4>📋 AWS Hands-On Tutorials</h4>
+      <p>Official 10-minute guided tutorials — launch an EC2 instance, host a website, and more, free.</p>
+    </a>
+    <a class="topic-card" href="https://github.com/aws-samples" target="_blank">
+      <h4>💻 GitHub: aws-samples</h4>
+      <p>AWS's own public GitHub org — hundreds of free, ready-to-clone sample projects and lab guides.</p>
+    </a>
+  </div>
+  <p class="fine-print" style="text-align:center; margin-top:16px;">⚠️ Free Tier requires a card on file for identity verification — set a <a href="https://aws.amazon.com/premiumsupport/knowledge-center/set-up-billing-alarm/" target="_blank">billing alarm</a> at $1 so you're notified before anything is ever charged.</p>
+</section>
 <section class="cta-secondary">
   <p>Prefer to study for free first? <a href="practice-exam/exams.html">Start with the practice exams →</a></p>
 </section>
