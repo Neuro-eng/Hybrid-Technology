@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Cert Hub</title>
+<style>
+  :root{
+    --bg:#0b1120; --panel:#111a2e; --line:#233252;
+    --text:#e7edf7; --dim:#8fa0c2; --orange:#ff9900;
+    --mono:'JetBrains Mono','SF Mono',Consolas,monospace;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--mono);line-height:1.5;}
+  header{padding:36px 20px 20px;border-bottom:1px solid var(--line);}
+  h1{margin:0;font-size:24px;}
+  h1 span{color:var(--orange);}
+  .sub{color:var(--dim);font-size:13px;margin-top:6px;max-width:560px;}
+  main{max-width:880px;margin:0 auto;padding:30px 20px 60px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
+  a.card{
+    display:block;background:var(--panel);border:1px solid var(--line);border-radius:8px;
+    padding:18px;text-decoration:none;color:var(--text);
+  }
+  a.card:hover{border-color:var(--orange);}
+  .status{font-size:11px;color:var(--orange);margin-bottom:6px;}
+  .status.soon{color:var(--dim);}
+  .card h3{margin:0 0 6px;font-size:15px;}
+  .card p{margin:0;color:var(--dim);font-size:12px;}
+  .card.soon{opacity:.55;cursor:default;}
+  footer{text-align:center;color:var(--dim);font-size:11px;padding:20px;opacity:.6;}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>$</span> my-cert-hub</h1>
+  <p class="sub">One page, many tracks. Edit the TRACKS array in the script below to add, rename, or link new exams — no build tools needed.</p>
+</header>
+<main>
+  <div class="grid" id="grid"></div>
+</main>
+<footer>Fully static — hosts free on GitHub Pages. Edit this file directly to change anything.</footer>
+
+<script>
+// Edit this list to add/remove tracks. status: "live" or "soon".
+const TRACKS = [
+  { name:"AWS Cloud Practitioner", desc:"Scenario MCQs, labs, and progress tracking.", href:"aws-cloud-practitioner-lab.html", status:"live" },
+  { name:"AWS Security Deep-Dive", desc:"IAM, VPC, KMS, GuardDuty, WAF and more.", href:"#", status:"soon" },
+  { name:"Azure Fundamentals (AZ-900)", desc:"Cloud concepts, architecture, governance.", href:"#", status:"soon" },
+  { name:"Terraform", desc:"Infrastructure as Code fundamentals.", href:"#", status:"soon" },
+];
+
+const grid = document.getElementById('grid');
+TRACKS.forEach(t=>{
+  const el = document.createElement('a');
+  el.className = 'card' + (t.status==='soon' ? ' soon' : '');
+  el.href = t.status==='soon' ? '#' : t.href;
+  if(t.status==='soon') el.addEventListener('click', e=>e.preventDefault());
+  el.innerHTML = `<div class="status ${t.status==='soon'?'soon':''}">${t.status==='live'?'✅ LIVE':'🔜 SOON'}</div>
+                   <h3>${t.name}</h3><p>${t.desc}</p>`;
+  grid.appendChild(el);
+});
+</script>
+</body>
+</html>
